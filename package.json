@@ -1,5 +1,5 @@
 {
-  "name": "vuestrap",
+  "name": "@ceyarts/vuestrap",
   "version": "0.1.0",
   "private": false,
   "main": "./dist/vuestrap.common.js",
