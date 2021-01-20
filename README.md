@@ -27,7 +27,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 npm install https://github.com/ceyarts/vuestrap
 ```
-First copy 'node_modules/../vuestrapsrc/styles.scss' file into your project/src folder.
+First copy 'node_modules/../vuestrap/src/styles.scss' file into your own project/src folder.
 
 Then import it along with the plugin in your main.js as follows:
 ```
