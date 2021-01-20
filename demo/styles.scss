@@ -1,0 +1,16 @@
+@import '../src/styles';
+
+/**
+ * COMMON STYLES
+ */
+section {
+    @extend .mb-5;
+}
+
+.sample {
+    @extend .border, .rounded, .p-3, .my-3;
+
+    & > * {
+        @extend .m-2;
+    }
+}

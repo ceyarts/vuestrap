@@ -4,7 +4,7 @@
   "private": false,
   "main": "./dist/vuestrap.common.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve demo/main.js",
     "build": "vue-cli-service build --target lib src/main.js && rm dist/demo.html",
     "lint": "vue-cli-service lint"
   },
@@ -15,8 +15,9 @@
     "url": "git+https://github.com/ceyarts/vuestrap.git"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -24,7 +25,12 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
+    "core-js": "^3.6.5",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint-plugin-vue": "^7.0.0-0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0"
   }
 }
