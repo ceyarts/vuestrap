@@ -8,6 +8,12 @@
     "build": "vue-cli-service build --target lib src/main.js && rm dist/demo.html",
     "lint": "vue-cli-service lint"
   },
+  "author": "Evren Ceyhan",
+  "homepage": "https://github.com/ceyarts/vuestrap#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceyarts/vuestrap.git"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
