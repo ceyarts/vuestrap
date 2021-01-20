@@ -1,10 +1,11 @@
 {
   "name": "vuestrap",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./dist/vuestrap.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib src/main.js && rm dist/demo.html",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
