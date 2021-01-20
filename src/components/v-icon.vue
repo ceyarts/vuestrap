@@ -12,6 +12,7 @@ export default {
     size: { type: String },
     flip: { type: String },
     rotate: { type: String },
+    color: { type: String },
   },
   computed: {
     classes() {
@@ -25,6 +26,7 @@ export default {
           [`fa-${this.size}`]: this.size,
           [`fa-flip-${this.flip}`]: this.flip,
           [`fa-rotate-${this.rotate}`]: this.rotate,
+          [`text-${this.color}`]: this.color,
         },
       ];
     },
